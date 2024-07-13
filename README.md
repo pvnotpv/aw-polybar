@@ -24,9 +24,14 @@ https://github.com/ActivityWatch/aw-watcher-input
 ---
 
 today.sh and yesterday.sh - Outputs today's and yesterday's time respectively.
+
 clicknpress.sh - Yesterday's and today's keyboard and mouse clicks.
 
 I didn't coimbine them into a single file for obvious reasons and if you want to display it like above image then create a script name activitywatch.sh or smtn and add this:
+
+```
+sudo pacman -S jq moreutils
+```
 
 ```
 todayout=$(bash /home/pv/.config/polybar/scripts/today.sh)
