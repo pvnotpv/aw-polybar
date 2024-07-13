@@ -13,7 +13,7 @@ Keyboard and Mouse clicks (resp):
   <img src="https://github.com/pvnotpv/aw-polybar/blob/main/images/clicks.png?raw=true" width="440" />
 </p>
 
-(Alternates between the two in n time internal.)
+(Alternates between the two at n time internal.)
 
 ---
 
