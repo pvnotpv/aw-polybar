@@ -34,9 +34,9 @@ sudo pacman -S jq moreutils
 ```
 
 ```
-todayout=$(bash /home/pv/.config/polybar/scripts/today.sh)
-yestout=$(bash /home/pv/.config/polybar/scripts/yesterday.sh)
-clickout=$(bash $HOME/.config/polybar/scripts/clickpress.sh)
+todayout=$(bash /home/pv/.config/polybar/scripts/aw-polybar/today.sh)
+yestout=$(bash /home/pv/.config/polybar/scripts/aw-polybar/yesterday.sh)
+clickout=$(bash $HOME/.config/polybar/scripts/aw-polybar/clickpress.sh)
 
 currentstats=$(jq -r '.status' $HOME/.config/polybar/scripts/stats.json)
 
