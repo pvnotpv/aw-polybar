@@ -42,11 +42,11 @@ currentstats=$(jq -r '.status' $HOME/.config/polybar/scripts/stats.json)
 
 if [[ $currentstats == 1 ]]; then
   echo "${todayout} | ${yestout}"
-  jq '.status = 0' $HOME/.config/polybar/scripts/stats.json | sponge $HOME/.config/polybar/scripts/stats.json
+  jq '.status = 0' $HOME/.config/polybar/scripts/aw-polybar/stats.json | sponge $HOME/.config/polybar/scripts/aw-polybar/stats.json
 
 else
   echo "${clickout}"
-  jq '.status = 1' $HOME/.config/polybar/scripts/stats.json | sponge $HOME/.config/polybar/scripts/stats.json
+  jq '.status = 1' $HOME/.config/polybar/scripts/aw-polybar/stats.json | sponge $HOME/.config/polybar/scripts/aw-polybar/stats.json
 
 fi
 
